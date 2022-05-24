@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.headerGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 945px;
+    background-color: bisque;
+}
+
+.navFlex {
+    display: flex;
+}
+
+
+
+/* Section 1 */
+
+.section1Grid {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+        "presentation" "formation" ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1045px;
+    background-color: aqua;
+}
+
+.presentation {
+    grid-area: "presentation";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formation {
+    grid-area: "formation";
+}
