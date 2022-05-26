@@ -39,6 +39,7 @@ body {
 
 .menu li {
     list-style: none;
+    overflow-y: hidden;
 }
 
 .menu a {
@@ -109,7 +110,7 @@ span {
 }
 
 .main img {
-    width: 500px;
+    width: 530px;
     border-bottom: 7px solid #0bebaf;
     height: 460px;
 }
