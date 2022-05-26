@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -84,6 +85,7 @@ body {
 
 h1 {
     font-size: 3em;
+    padding: 2px 8px 2px 0px;
 }
 
 span {
@@ -101,14 +103,19 @@ span {
 }
 
 .download-cv:hover {
+    border: 0.5px solid #14213d;
     background-color: #fff;
     box-shadow: none;
 }
 
 .main img {
-    width: 600px;
+    width: 500px;
     border-bottom: 7px solid #0bebaf;
-    height: 520px;
+    height: 460px;
+}
+
+.info-content-description {
+    padding: 10px 10px 10px 0px;
 }
 
 /* Sobre mi  */
@@ -195,6 +202,7 @@ span {
     background-color: #14213d;
     width: 100vw;
     height: 120vh;
+    overflow-y: hidden;
 }
 
 .portfolio-headings {
@@ -298,6 +306,7 @@ span {
     padding: 2em;
     padding-bottom: 0;
     font-size: 2em;
+    text-shadow: 1px 1px #fca311;
 }
 
 .container-contact {
@@ -307,16 +316,28 @@ span {
     justify-content: center;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contact-form h4 {
     text-align: center;
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .container-contact img {
-    width: 750px;
-    height: 700px;
-    bottom: 0;
-    opacity: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.container-contact img:hover {
+    transform: rotate(360deg);
+    transition: transform .8s ease-in-out;
 }
 
 .form {
@@ -388,6 +409,10 @@ span {
     display: flex;
     justify-content: center;
     margin-top: 1em;
+}
+
+.footer p {
+    margin-top: 7px;
 }
 
 .footer img {
