@@ -200,6 +200,8 @@ span {
 .portfolio-headings {
     width: 100vw;
     padding: 5em;
+    color: #fff;
+    text-shadow: 1px 1px #fca311;
 }
 
 .portfolio-headings h2 {
@@ -286,3 +288,108 @@ span {
 }
 
 
+/* Contacto */
+
+.contact-section {
+    width: 100vw;
+}
+
+.contact-headings{
+    padding: 2em;
+    padding-bottom: 0;
+    font-size: 2em;
+}
+
+.container-contact {
+    padding: em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form h4 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.container-contact img {
+    width: 750px;
+    height: 700px;
+    bottom: 0;
+    opacity: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    margin: 2em;
+}
+
+.form input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #068b68;
+}
+
+.form textarea{
+    height: 150px;
+    width: 400px;
+    background: none;
+    color: black;
+    padding: 1.5em;
+    border: 1px solid #068b68;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    background-color: #0bebaf;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+}
+
+.btn-submit:hover {
+    background-color: #14213d;
+    box-shadow: none;
+    color: #fff;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: #14213d;
+    color: #fff;
+}
+
+.footer-content h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.footer-content h5 {
+    color: #fca311;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.social-network {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.footer img {
+    width: 40px;
+}
