@@ -45,7 +45,7 @@ body {
 .menu a {
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .menu .active {
@@ -67,6 +67,10 @@ body {
 .brand {
     /* Acomodado con extensión pixel perfect */
     margin-top: -7px;
+}
+
+.burguermenu {
+    display: none!important;
 }
 
 .brand span {
@@ -418,4 +422,30 @@ span {
 
 .footer img {
     width: 40px;
+}
+
+.menucheck {
+    display: none;
+}
+
+/* Media Queries  */
+
+@media (max-width: 600px) {
+    .brand {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menucheck:checked ~ .menu li{
+        display: inline-block;
+    }
+
+    .burguermenu {
+        display: inline-block!important;
+        font-size: 30px;
+    }
 }
