@@ -450,29 +450,45 @@ span {
         grid-template-rows: repeat(3,1fr);
     } */
 
+
     .html {
         overflow: hidden;
     }
 
+    /* ABOUT  */
 
     .about {
         width: 100vw;
-        height: 1800px;
+        height: 2000px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding: 20px;
         overflow: hidden;
     }
 
     .about-info1 {
-        overflow: hidden;
-        margin-bottom: 40px;
+        padding: 2em;
+    }
+    
+    .about-info2 {
+        grid-area: about2;
+        padding: 2em;
+    }
+    
+ 
+    .about-info2 img {
+        width: 60px;
+        margin: 8px;
+    }
+    
+    #rocketImg {
+        margin: 0;
+        padding: 0;
     }
 
-    .about-info2 {
-        height: 140vh;
-    }
+    
+    /* PORTFOLIO  */
 
     .portfolio {
         background-color: #14213d;
@@ -543,7 +559,7 @@ span {
     }
 
     .info-content {
-        height: 300px;
+        height: 500px;
         text-align: center;
     }
 
