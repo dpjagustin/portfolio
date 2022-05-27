@@ -433,7 +433,7 @@ span {
 
 /* Media Queries  */
 
-@media screen and (max-width:700px) {
+@media (min-width: 300px)and (max-width:700px) {
     /* .about {
         width: 100vw;
         height: 100vh;
@@ -446,13 +446,18 @@ span {
         grid-template-rows: repeat(3,1fr);
     } */
 
+    .html {
+        overflow: hidden;
+    }
+
 
     .about {
         width: 100vw;
-        height: 1500px;
+        height: 1800px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between
+        justify-content: space-between;
+        padding: 20px;
     }
 
     .about p {
