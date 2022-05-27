@@ -79,6 +79,8 @@ body {
 
 /* Main  */
 
+
+
 .main {
     margin: 0 auto;
     width: 80vw;
@@ -122,6 +124,7 @@ span {
 .info-content-description {
     padding: 10px 10px 10px 0px;
 }
+
 
 /* Sobre mi  */
 
@@ -430,22 +433,92 @@ span {
 
 /* Media Queries  */
 
-@media (max-width: 600px) {
-    .brand {
-        text-align: center;
-        font-size: 14px;
+@media screen and (max-width:700px) {
+    /* .about {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-areas:
+        "about1"
+        "img"
+        "about2";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+    } */
+
+
+    .about {
+        width: 100vw;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
     }
 
-    .menu {
-        display: none;
+    .about p {
+        font-size: 19px;
+    }
+    
+    .about img {
+        grid-area: img;
+        width: 100px;
+    }
+    
+    #rocketImg {
+        justify-self: center;
+        align-self: center;
+    }
+    
+    #rocketImg:hover {
+        transform: rotate(-360deg);
+        transition: transform .8s ease-in-out;
+        filter: invert(100%);
+    }
+    
+    .about-info2 img:hover {
+        transform: rotate(360deg);
+        transition: transform .8s ease-in-out;
+    }
+    
+    .about-info1 {
+        grid-area: about1;
+        padding: 3em;
+    }
+    
+    .about-info1 h2 {
+        font-size: 2em;
+        font-weight: bold;
+        color: #14213d;
+        text-shadow: 1px 1px #fca311;
+    }
+    
+    .about-info2 {
+        grid-area: about2;
+        padding: 3em;
+    }
+    
+    .about-info2 h2 {
+        font-size: 2em;
+        font-weight: bold;
+        color: #14213d;
+        text-shadow: 1px 1px #fca311;
+    }
+    
+    .about-info2 img {
+        width: 70px;
+        margin: 10px;
+    }
+    
+    .divider {
+        height: 4px;
+        width: 60px;
+        background-color: #0bebaf;
+        margin-top: 10px;
+        margin-bottom: 2em;
+    }
+    
+    .about p {
+        margin-bottom: 1em;
     }
 
-    .menucheck:checked ~ .menu li{
-        display: inline-block;
-    }
-
-    .burguermenu {
-        display: inline-block!important;
-        font-size: 30px;
-    }
 }
