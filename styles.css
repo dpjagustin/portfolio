@@ -458,72 +458,7 @@ span {
         flex-direction: column;
         justify-content: space-between;
         padding: 20px;
-    }
-
-    .about p {
-        font-size: 19px;
-    }
-    
-    .about img {
-        grid-area: img;
-        width: 100px;
-    }
-    
-    #rocketImg {
-        justify-self: center;
-        align-self: center;
-    }
-    
-    #rocketImg:hover {
-        transform: rotate(-360deg);
-        transition: transform .8s ease-in-out;
-        filter: invert(100%);
-    }
-    
-    .about-info2 img:hover {
-        transform: rotate(360deg);
-        transition: transform .8s ease-in-out;
-    }
-    
-    .about-info1 {
-        grid-area: about1;
-        padding: 3em;
-    }
-    
-    .about-info1 h2 {
-        font-size: 2em;
-        font-weight: bold;
-        color: #14213d;
-        text-shadow: 1px 1px #fca311;
-    }
-    
-    .about-info2 {
-        grid-area: about2;
-        padding: 3em;
-    }
-    
-    .about-info2 h2 {
-        font-size: 2em;
-        font-weight: bold;
-        color: #14213d;
-        text-shadow: 1px 1px #fca311;
-    }
-    
-    .about-info2 img {
-        width: 70px;
-        margin: 10px;
-    }
-    
-    .divider {
-        height: 4px;
-        width: 60px;
-        background-color: #0bebaf;
-        margin-top: 10px;
-        margin-bottom: 2em;
-    }
-    
-    .about p {
-        margin-bottom: 1em;
+        overflow-x: hidden;
     }
 
 }
