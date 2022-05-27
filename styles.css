@@ -33,6 +33,7 @@ body {
     height: 100vh;
     background-color: #14213d;
     color: white;
+    overflow: hidden;
 }
 
 .menu {
