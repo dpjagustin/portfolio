@@ -462,7 +462,15 @@ span {
         flex-direction: column;
         justify-content: space-between;
         padding: 20px;
-        overflow-x: hidden;
+        overflow: hidden;
+    }
+
+    .about-info1 {
+        overflow: hidden;
+    }
+
+    .about-info2 {
+        overflow: hidden;
     }
 
     .portfolio {
@@ -488,6 +496,7 @@ span {
         color: #fff;
         background-color: #068b68;
         margin: 20px;
+        overflow: visible;
     }
 
 
@@ -529,6 +538,7 @@ span {
     .main {
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
 
     .info-content {
