@@ -20,6 +20,10 @@
 /* fca311 */
 /* 0bebaf */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Montserrat;
 }
@@ -369,7 +373,7 @@ span {
     width: 400px;
     background: none;
     color: black;
-    padding: 1.5em;
+    /* padding: ; */
     border: 1px solid #068b68;
 }
 
@@ -486,4 +490,55 @@ span {
         margin: 20px;
     }
 
+
+    .footer-content h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    .footer-content h5 {
+        color: #fca311;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .footer-content p {
+        text-align: center;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70vw;
+        margin: 2em;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        display: inline-block;
+        text-align: center;
+        padding-top: 20px ;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-content {
+        /* height: 300px; */
+        text-align: center;
+    }
+
+    .main img {
+        width: 100vw;
+        margin-top: 20px;
+    }
+    
 }
