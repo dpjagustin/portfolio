@@ -467,10 +467,11 @@ span {
 
     .about-info1 {
         overflow: hidden;
+        margin-bottom: 40px;
     }
 
     .about-info2 {
-        overflow: hidden;
+        height: 140vh;
     }
 
     .portfolio {
@@ -542,13 +543,14 @@ span {
     }
 
     .info-content {
-        /* height: 300px; */
+        height: 300px;
         text-align: center;
     }
 
     .main img {
         width: 100vw;
-        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
     
 }
