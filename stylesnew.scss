@@ -27,6 +27,7 @@ $terColor: #0bebaf;
 
     h2 {
         color: white;
+        font-size: 30px;
     }
 
     span {
@@ -61,7 +62,7 @@ $terColor: #0bebaf;
 
 .hero {
     width: 100%;
-    height: 78vh;
+    height: 70vh;
     background-color: $priColor;
     display: flex;
     flex-direction: column;
@@ -69,8 +70,8 @@ $terColor: #0bebaf;
     justify-content: space-around;
 
     img {
-        width: 249px;
-        height: 258px;
+        width: 260px;
+        height: 269px;
         border-bottom: 7px solid #0bebaf;
     }
 }
@@ -82,12 +83,12 @@ $terColor: #0bebaf;
 
     h1 {
         color: white;
-        font-size: 60px;
+        font-size: 50px;
     }
 
     p {
         color: white;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     span {
