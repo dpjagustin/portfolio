@@ -14,7 +14,7 @@
 .navbar {
   padding-top: 10px;
   width: 100%;
-  height: 20%;
+  height: 22%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,5 +66,60 @@
   color: #14213d;
   -webkit-transition: ease-in .4s;
   transition: ease-in .4s;
+}
+
+.hero {
+  width: 100%;
+  height: 78vh;
+  background-color: #14213d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero img {
+  width: 249px;
+  height: 258px;
+  margin-top: 20px;
+  border-bottom: 7px solid #0bebaf;
+}
+
+.hero-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-content h1 {
+  color: white;
+}
+
+.hero-content p {
+  color: white;
+}
+
+.hero-content span {
+  color: #fca311;
+}
+
+.hero-content-info {
+  padding: 10px 10px 10px 0px;
 }
 /*# sourceMappingURL=stylesnew.css.map */
