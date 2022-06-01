@@ -66,12 +66,11 @@ $terColor: #0bebaf;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
     img {
         width: 249px;
         height: 258px;
-        margin-top: 20px;
         border-bottom: 7px solid #0bebaf;
     }
 }
@@ -83,10 +82,12 @@ $terColor: #0bebaf;
 
     h1 {
         color: white;
+        font-size: 60px;
     }
 
     p {
         color: white;
+        font-size: 20px;
     }
 
     span {
@@ -98,3 +99,9 @@ $terColor: #0bebaf;
         padding: 10px 10px 10px 0px;
 }
 
+// SOBRE MÍ - SECCIÓN 
+
+.about-container {
+    width: 100%;
+    height: 100vh;
+}
