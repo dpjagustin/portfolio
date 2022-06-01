@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Header  */
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: #14213d ;
+}
+
+.navbar {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar span {
+    color: #fca311;
+}
+
+.navbar-list {
+    margin-top: 10px;
+    list-style: none;
+}
