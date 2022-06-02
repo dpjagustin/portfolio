@@ -134,7 +134,7 @@ html {
 
 .about-container {
   width: 100%;
-  height: 290vh;
+  height: 310vh;
   display: -ms-grid;
   display: grid;
       grid-template-areas: "about-info-one" "about-info-two";
