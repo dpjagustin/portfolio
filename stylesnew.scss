@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+// Variables
+
+$priColor: #14213d;
+$secColor: #fca311;
+$terColor: #0bebaf; 
+
+// General
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,11 +15,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-$priColor: #14213d;
-$secColor: #fca311;
-$terColor: #0bebaf; 
 
-// HEADER 
+html {
+    scroll-behavior: smooth;
+}
+
+// Header (nav y hero)
 
 .header {
     width: 100%;
@@ -73,8 +82,10 @@ $terColor: #0bebaf;
     justify-content: space-around;
 
     img {
-        width: 260px;
-        height: 269px;
+        // width: 260px; 
+        // height: 269px;
+        width: 70vw;
+        height: 40vh;
         border-bottom: 7px solid #0bebaf;
     }
 }
@@ -103,9 +114,68 @@ $terColor: #0bebaf;
         padding: 10px 10px 10px 0px;
 }
 
-// SOBRE MÍ - SECCIÓN 
+// Sección - Sobre mí
 
 .about-container {
     width: 100%;
-    height: 100vh;
+    height: 200vh;
+    display: grid;
+    grid-template-areas: 
+    "about-info-uno"
+    "about-info-dos";
+    grid-template-rows: repeat(2,1fr);
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: #0bebaf;
+    margin-top: 10px;
+    margin-bottom: 2em;
+}
+
+.about-info-uno {
+    grid-area: about-info-uno;
+    padding: 3em;
+
+    p{
+        font-size: 19px;
+        margin-bottom: 1em;
+    }
+
+    h2 {
+        font-size: 2em;
+        font-weight: bold;
+        color: $priColor;
+        text-shadow: 1px 1px $secColor;
+    }
+}
+
+.rocketImg {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+    img {
+        width: 120px;
+    }
+
+    img:hover {
+        transform: rotate(-360deg);
+        transition: transform .8s ease-in-out;
+        filter: invert(100%);
+    }
+}
+
+
+.download-cv-btn {
+    margin-top: 1em;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+    background-color: #0bebaf;
+    box-shadow: 1px 3px 11px -5px $secColor;
 }
