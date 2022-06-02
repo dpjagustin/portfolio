@@ -384,7 +384,7 @@ html {
 // Footer 
 
 .footer {
-    position: fixed;
+    position: sticky;
     display: flex;
     flex-direction: column;
     justify-content: center;
