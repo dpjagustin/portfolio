@@ -429,7 +429,8 @@ html {
 }
 
 .footer {
-  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
