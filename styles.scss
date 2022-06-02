@@ -120,7 +120,7 @@ html {
 
 .about-container {
     width: 100%;
-    height: 260vh;
+    height: 280vh;
     display: grid;
     grid-template-areas: 
     "about-info-one"
@@ -384,6 +384,7 @@ html {
 // Footer 
 
 .footer {
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
