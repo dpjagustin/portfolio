@@ -24,7 +24,7 @@ html {
 
 .header {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-color: $priColor;
 }
 
@@ -84,8 +84,9 @@ html {
     img {
         // width: 260px; 
         // height: 269px;
+        margin-top: 40px;
         width: 70vw;
-        height: 40vh;
+        height: 50vh;
         border-bottom: 7px solid #0bebaf;
     }
 }
@@ -94,6 +95,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 
     h1 {
         color: white;
@@ -118,7 +120,7 @@ html {
 
 .about-container {
     width: 100%;
-    height: 200vh;
+    height: 270vh;
     display: grid;
     grid-template-areas: 
     "about-info-one"
@@ -216,7 +218,7 @@ html {
 .projects-container {
     background-color: $priColor;
     width: 100%;
-    height: 160vh;
+    height: 200vh;
 }
 
 .projects-headings {
@@ -299,7 +301,7 @@ html {
 
 .contact-container {
     width: 100%;
-    height: 100vh;
+    height: 140vh;
 }
 
 .contact-headings {
