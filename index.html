@@ -1,80 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="fontawesome/fontawesome-free-6.1.1-web/css/all.css">
-        <title>Mi portfolio</title>
-    </head>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/78da2b5c9a.js" crossorigin="anonymous"></script>    <title>Portfolio - Agustín Perez</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h2>< <span>agustín_portfolio</span> /></h2>
+            <ul class="navbar-list">
+                <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+                <li><a href="index.html#proyectos">Proyectos</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
 
-    <body>
-        <div class="wrapper">
-            <header>
-                <label for="menucheck">
-                        <i class="fa-solid fa-bars burguermenu"></i>
-                </label>
-                <input type="checkbox" class="menucheck" id="menucheck">
-
-                <nav class="navbar">
-                    <div class="brand">
-                        <h2>< <span>agustín_portfolio</span> /></h2>
-                    </div>
-
-                    <ul class="menu">
-                        <li><a href="#" class="active">Inicio</a> </li>
-                        <li><a href="indexMobileFirst.html">Sobre mí</a></li>
-                        <li><a href="index.html#portfolio">Proyectos</a></li>
-                        <li><a href="index.html#contact">Contacto</a></li>
-                    </ul>
-                </nav>
-            </header>
-
-            <main class="main">
-                <div class="info-content">
-                    <p>¡Hola mundo!</p>
-                    <h1>Soy <span>Agustín</span> <span id="last-name">Perez</span></h1>
-                    <p class="info-content-description">Desarrollador FullStack en progreso :)</p>
-                </div>
-        
-                <img src="img/profile_img1.png" alt="Imagen de mí, Agustín Perez."> 
-            </main>          
-        </div>
-
-        <!-- SOBRE MI SECTION  -->
-
-        <div class="about" id="sobre-mi">
-            <div class="about-info1">
-                <h2>Sobre mí</h2> 
-
-                <div class="divider">
-    
-                </div>
-                <p> Mi nombre es Agustín, tengo 22 años, soy de Córdoba-Argentina. Mi pasión es la innovación y el aprendizaje continuo.</p>
-                <p>Soy una persona <i>proactiva</i>, que le gusta trabajar en equipo y ser pieza fundamental del mismo pudiendo lograr grandes resultados aplicando <i>inteligencia emocional y metodologias agiles</i> en el proceso.</p>
-                <a href="docs/CV_AgustinPerez.pdf" download>
-                    <button class="download-cv">Descargar CV</button>
-                </a>
+        <div class="hero">
+            <div class="hero-content">
+                <p>¡Hola mundo!<i class="fa-solid fa-rocket-launch"></i>
+                </p>
+                <h1>Soy <span>Agustín</span></h1>
+                <p class="hero-content-info">Desarrollador FullStack en progreso :)</p>
             </div>
 
-                <img src="img/rocket.png" alt="Imagen de nave espacial" id="rocketImg">
-            
-            
-            <div class="about-info2">
+            <img src="img/profile_img1.png" alt="Imagen de frente de mí, Jorge Agustín Perez. Mayo 2022.">
+
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección sobre mí -->
+        <div class="about-container" id="sobre-mi">
+            <div class="about-info-one">
+                <h2>Sobre mí</h2>
+
+                <div class="divider"></div>
+
+                <p> Mi nombre es Agustín, tengo 22 años, soy de Córdoba-Argentina. Mi pasión es la innovación y el aprendizaje continuo.</p>
+                <p>Soy una persona <i>proactiva</i>, que le gusta trabajar en equipo y ser pieza fundamental del mismo pudiendo lograr grandes resultados aplicando <i>inteligencia emocional y metodologias agiles</i> en el proceso.</p>
+
+                <button class="download-cv-btn">
+                    <a href="docs/CV_AgustinPerez.pdf" download>Descargar CV</a>
+                </button>
+                
+                <div class="rocketImg">
+                    <img src="img/rocket.png" alt="Imagen de nave espacial">
+                </div>
+            </div>
+
+            <div class="about-info-two">
                 <h2>Formación</h2> 
 
-                <div class="divider">
-
-                </div>
+                <div class="divider"></div>
 
                 <div>
-                <p>Me encuentro cursando el primer año de la <i>Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales</i> en el Instituto Superior Politécnico Córdoba y <i>JavaScript</i> en CoderHouse</p>
+                <p>Me encuentro cursando el primer año de la <i>Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales</i> en el Instituto Superior Politécnico Córdoba (ISPC) y <i>JavaScript</i> en CoderHouse.</p>
                 <p>Becado en una certificación en Soporte en Tecnologías de la Información de la mano de Google y Junior Achievement donde se nos dió una gran base técnica (SO, Seguridad Informática, Redes, Infraestructura, etc.) y humanistica (Inteligencia emocional, oratoria, finanzas, etc.). También poseo formación en Fundamentos de la programación, desarrollo web y comunicación eficaz. </p>
                 </div>
-
                 <!-- Poner en hover nombre de la tecnología para reclutadores -->
-
                 <img src="img/html-5_icon.png" alt="Icono de HTML5">
                 <img src="img/css_icon.png" alt="Icono de CSS3">
                 <img src="img/git_icon.png" alt="Icono de Git">
@@ -83,103 +69,91 @@
             </div>
         </div>
 
-        <!-- PORTFOLIO SECTION  -->
+        <!-- Sección - Proyectos  -->
 
-        <div class="portfolio" id="portfolio">
-            <div class="portfolio-headings">
+        <div class="projects-container" id="proyectos">
+            <div class="projects-headings">
                 <h2>Mis proyectos</h2>
                 <div class="divider"></div>
             </div>
-
-            <div class="container">
+            
+            <div class="projects-cards">
                 <div class="card">
-                    <div class="card_img">
-                    </div>
+                    <div class="card_img"></div>
 
                     <div class="card_title">
                         <h2>Login landing 1</h2>
-                        <p>Login landing tematica espacio-galaxia responsive hecho con HTML y CSS.</p>
+                        <p>Login landing tematica espacio-galaxia, responsive, HTML y CSS.</p>
                     </div>
 
                     <div class="card_projects-links">
                         <a href="https://github.com/dpjagustin/login-landing" target="_blank">
-                            <img src="img/github_icon1.png" alt="">
+                            <i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="https://login-landing-green.vercel.app/" target="_blank">
-                            <img src="img/world_icon.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/code_icon.png" alt="">
+                        
+                        <a href="https://login-landing-green.vercel.app/login2.html" target="_blank">
+                            <i class="fa-solid fa-earth-americas"></i>
                         </a>
                     </div>
                 </div>
-            
-
-            
+        
                 <div class="card">
-                    <div class="card_img2">
-                    </div>
+                    <div class="card_img2"></div>
 
                     <div class="card_title">
                         <h2>Login landing 2</h2>
-                        <p>Login landing tematica viejo oeste responsive hecho con HTML y CSS.</p>
+                        <p>Login landing tematica viejo oeste, responsive, HTML y CSS.</p>
                     </div>
 
                     <div class="card_projects-links">
                         <a href="https://github.com/dpjagustin/login-landing" target="_blank">
-                            <img src="img/github_icon1.png" alt="">
+                            <i class="fa-brands fa-github"></i>
                         </a>
+                        
                         <a href="https://login-landing-green.vercel.app/login2.html" target="_blank">
-                            <img src="img/world_icon.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/code_icon.png" alt="">
+                            <i class="fa-solid fa-earth-americas"></i>
                         </a>
                     </div>
                 </div>
             
-
-            
                 <div class="card">
-                    <div class="card_img3">
-                    </div>
+                    <div class="card_img3"></div>
 
                     <div class="card_title">
                         <h2>Landing page</h2>
-                        <p>Landing page de empresa ficticia "Momentos", responsive, utilizando HTML y CSS (flexbox).</p>
+                        <p>Landing page de empresa ficticia "Momentos", responsive, HTML y CSS.</p>
                     </div>
 
                     <div class="card_projects-links">
-                        <a href="https://github.com/dpjagustin/landing-page-momentos" target="_blank">
-                            <img src="img/github_icon1.png" alt="">
+                        <a href="https://github.com/dpjagustin/login-landing" target="_blank">
+                            <i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="https://landing-page-momentos-f0q24ohda-dpjagustin.vercel.app/" target="_blank">
-                            <img src="img/world_icon.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/code_icon.png" alt="">
+                        
+                        <a href="https://login-landing-green.vercel.app/login2.html" target="_blank">
+                            <i class="fa-solid fa-earth-americas"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="contact-section" id="contact">
+        <!-- Seccion - Contacto  -->
+
+        <div class="contact-container" id="contacto">
             <div class="contact-headings">
                 <h2>Contacto</h2>
                 <div class="divider"></div>
             </div>
 
-            <div class="container-contact">
+            <div class="contact-box">
                 <div class="contact-form">
                     <div class="media-contact">
-                        <a href="https://www.linkedin.com/in/dpjagustin/" target="_blank"><img src="img/linkedin_icon_circle.png" alt=""></a>
-                        <a href="https://github.com/dpjagustin" target="_blank"><img src="img/github_icon.png" alt=""></a>
-                        <a href="#" target="#"><img src="img/instagram_icon.png" alt=""></a>
-                        <a href="#" target="#"><img src="img/telegram_icon.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/dpjagustin/" target="_blank"><img src="img/linkedin_icon_circle.png" alt="Icono de LinkedIn"></a>
+                        <a href="https://github.com/dpjagustin" target="_blank"><img src="img/github_icon.png" alt="Icono de GitHub."></a>
+                        <a href="#" target="_blank"><img src="img/instagram_icon.png" alt="Icono de Instagram."></a>
+                        <a href="#" target="_blank"><img src="img/telegram_icon.png" alt="Icono de Telegram."></a>
                     </div>
                     
-
                     <p><b>||</b></p>
 
                     <form class="form">
@@ -187,8 +161,7 @@
 
                         <input type="text" placeholder="Nombre">
                         <input type="email" placeholder="Email">
-                        <textarea name="" id="">
-                        </textarea>
+                        <textarea name="" id=""></textarea>
 
                         <button class="btn-submit">
                             Enviar mensaje
@@ -197,13 +170,14 @@
                 </div>
             </div>
         </div>
+    </main>
 
-        <footer class="footer">
-            <div class="footer-content">
-                <h2><span><</span> agustín_portfolio <span>/></span></h2>
-                <h5>FullStack Developer</h1>
-                <p>"La innovación distingue a los líderes de los seguidores"</p>
-            </div>
-        </footer>
-    </body>
+    <footer class="footer">
+        <div class="footer-content">
+            <h2><span><</span> agustín_portfolio <span>/></span></h2>
+            <h5>FullStack Developer</h1>
+            <p>"La innovación distingue a los líderes de los seguidores"</p>
+        </div>
+    </footer>
+</body>
 </html>
