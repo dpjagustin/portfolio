@@ -429,8 +429,8 @@ html {
 }
 
 .footer {
-  -o-object-fit: cover;
-     object-fit: cover;
+  position: absolute;
+  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

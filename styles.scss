@@ -384,7 +384,8 @@ html {
 // Footer 
 
 .footer {
-    object-fit: cover;
+    position: absolute;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
