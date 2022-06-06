@@ -475,6 +475,10 @@ html {
     color: white;
     font-size: 1.7rem;
   }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   .hero img {
     margin-top: 40px;
     width: 300px;
