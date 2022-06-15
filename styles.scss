@@ -213,6 +213,59 @@ html {
     }
 }
 
+.tech-icon {
+    font-size: 5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tech-icon:hover {
+    font-size: 5.4rem;
+    cursor: pointer;
+}
+
+.html-icon:hover {
+    color: #E34F26;
+    transition: all 0.7s ease-in-out;
+}
+
+.css-icon:hover {
+    color: #264DE4;
+    transition: all 0.7s ease-in-out;
+}
+
+.sass-icon:hover {
+    color: #CC6699;
+    transition: all 0.7s ease-in-out;
+}
+
+.bootstrap-icon:hover {
+    color: #7711F6;
+    transition: all 0.7s ease-in-out;
+}
+
+.js-icon:hover {
+    color: #F7DF1E;
+    transition: all 0.7s ease-in-out;
+}
+
+.python-icon:hover {
+    background: linear-gradient(328deg, rgba(55,109,155,1) 33%, rgba(255,206,58,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.7s ease-in-out;
+    transition-duration: 1s;
+}
+
+.git-icon:hover {
+    color: #F05133;
+    transition: all 0.7s ease-in-out;
+}
+
+.github-icon:hover {
+    transition: all 0.7s ease-in-out;
+}
+
 // Sección - Proyectos 
 
 .projects-container {
@@ -668,6 +721,17 @@ html {
         span {
             color: $secColor;
         }
+    }
+
+    .tech-icon {
+        font-size: 4.5rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+      }
+      
+    .tech-icon:hover {
+        font-size: 5rem;
+        cursor: pointer;
     }
 
     .projects-cards {

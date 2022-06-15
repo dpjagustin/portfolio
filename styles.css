@@ -232,6 +232,68 @@ html {
   transition: transform .8s ease-in-out, -webkit-transform .8s ease-in-out;
 }
 
+.tech-icon {
+  font-size: 5rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.tech-icon:hover {
+  font-size: 5.4rem;
+  cursor: pointer;
+}
+
+.html-icon:hover {
+  color: #E34F26;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.css-icon:hover {
+  color: #264DE4;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.sass-icon:hover {
+  color: #CC6699;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.bootstrap-icon:hover {
+  color: #7711F6;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.js-icon:hover {
+  color: #F7DF1E;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.python-icon:hover {
+  background: linear-gradient(328deg, #376d9b 33%, #ffce3a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.git-icon:hover {
+  color: #F05133;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.github-icon:hover {
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
 .projects-container {
   background-color: #14213d;
   width: 100%;
@@ -475,11 +537,7 @@ html {
     color: white;
     font-size: 1.7rem;
   }
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  .hero img {
+  .navbar .hero img {
     margin-top: 40px;
     width: 300px;
     height: 40vh;
@@ -757,6 +815,15 @@ html {
   }
   .hero-content span {
     color: #fca311;
+  }
+  .tech-icon {
+    font-size: 4.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .tech-icon:hover {
+    font-size: 5rem;
+    cursor: pointer;
   }
   .projects-cards {
     width: 100%;
