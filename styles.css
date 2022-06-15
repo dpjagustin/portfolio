@@ -239,8 +239,8 @@ html {
 }
 
 .tech-icon:hover {
-  font-size: 5.4rem;
-  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .html-icon:hover {
@@ -823,7 +823,6 @@ html {
   }
   .tech-icon:hover {
     font-size: 5rem;
-    cursor: pointer;
   }
   .projects-cards {
     width: 100%;
