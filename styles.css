@@ -241,36 +241,28 @@ html {
 .tech-icon:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .html-icon:hover {
   color: #E34F26;
-  -webkit-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
 }
 
 .css-icon:hover {
   color: #264DE4;
-  -webkit-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
 }
 
 .sass-icon:hover {
   color: #CC6699;
-  -webkit-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
 }
 
 .bootstrap-icon:hover {
   color: #7711F6;
-  -webkit-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
 }
 
 .js-icon:hover {
   color: #F7DF1E;
-  -webkit-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
 }
 
 .python-icon:hover {
