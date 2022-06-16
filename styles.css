@@ -537,7 +537,7 @@ html {
     color: white;
     font-size: 1.7rem;
   }
-  .navbar .hero img {
+  .hero img {
     margin-top: 40px;
     width: 300px;
     height: 40vh;
@@ -820,9 +820,6 @@ html {
     font-size: 4.5rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
-  }
-  .tech-icon:hover {
-    font-size: 5rem;
   }
   .projects-cards {
     width: 100%;
