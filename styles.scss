@@ -109,8 +109,31 @@ html {
     }
 }
 
-.hero-content-info {
-        padding: 10px 10px 10px 0px;
+.effect-container {
+    display: inline-block;
+    padding: 15px 10px 10px 0px;
+}
+
+.typed-out {
+    padding-right: 0.1em;
+    overflow: hidden;
+    border-right: .15em solid $secColor;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+    typing 1s steps(2000, end) forwards,
+    blink .8s infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
 }
 
 // Sección - Sobre mí
@@ -648,7 +671,10 @@ html {
         list-style: none;
         display: flex;
         flex-direction: row;
-        // justify-content: space-around;
+
+        a {
+            padding: 6px;
+        }
 
         li {
             margin-right: 20px;

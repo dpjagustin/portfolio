@@ -128,8 +128,56 @@ html {
   color: #fca311;
 }
 
-.hero-content-info {
-  padding: 10px 10px 10px 0px;
+.effect-container {
+  display: inline-block;
+  padding: 15px 10px 10px 0px;
+}
+
+.typed-out {
+  padding-right: 0.1em;
+  overflow: hidden;
+  border-right: 0.15em solid #fca311;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  -webkit-animation: typing 1s steps(2000, end) forwards, blink 0.8s infinite;
+          animation: typing 1s steps(2000, end) forwards, blink 0.8s infinite;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
 }
 
 .about-container {
@@ -757,6 +805,9 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .navbar-list a {
+    padding: 6px;
   }
   .navbar-list li {
     margin-right: 20px;
