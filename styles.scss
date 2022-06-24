@@ -122,7 +122,7 @@ html {
     font-size: 1.6rem;
     width: 0;
     animation: 
-    typing 1s steps(2000, end) forwards,
+    typing 1s steps(100, end) forwards,
     blink .8s infinite;
 }
 
@@ -607,8 +607,6 @@ html {
         justify-content: space-around;
     
         img {
-            // width: 260px; 
-            // height: 269px;
             margin-top: 40px;
             width: 430px;
             height: 50vh;
@@ -689,15 +687,6 @@ html {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-    
-        img {
-            // width: 260px; 
-            // height: 269px;
-            margin-top: 40px;
-            width: 430px;
-            height: 50vh;
-            border-bottom: 7px solid #0bebaf;
-        }
     }
     
     .hero-content {
@@ -742,8 +731,6 @@ html {
         display: grid;
         grid-template-columns: 40% 10% 50%;
         align-items: center;
-        // justify-content: space-around;
-        // align-items: center;
     }
 
     .rocketImg {  

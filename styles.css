@@ -140,8 +140,8 @@ html {
   white-space: nowrap;
   font-size: 1.6rem;
   width: 0;
-  -webkit-animation: typing 1s steps(2000, end) forwards, blink 0.8s infinite;
-          animation: typing 1s steps(2000, end) forwards, blink 0.8s infinite;
+  -webkit-animation: typing 1s steps(100, end) forwards, blink 0.8s infinite;
+          animation: typing 1s steps(100, end) forwards, blink 0.8s infinite;
 }
 
 @-webkit-keyframes typing {
