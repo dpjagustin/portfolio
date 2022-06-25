@@ -275,11 +275,28 @@ html {
 // Sección - Proyectos 
 
 .projects-container {
-    background-color: $priColor;
+    // background-color: $priColor;
     width: 100%;
+    background-image: url(img/codinng.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    // position: relative;
 }
 
+// #video-container {
+//     z-index: -1;
+// }
+
+// .video {
+//     width: 100%;
+//     height: 100vh;
+// }
+
 .projects-headings {
+    // position: absolute;
+    // top: 1rem;
+    // left: 5rem;
     padding: 2em;
     padding-bottom: 0%;
     font-size: 1.5em;
@@ -289,6 +306,8 @@ html {
 }
 
 .projects-cards {
+    // position: absolute;
+    // top: 10rem;
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -313,21 +332,21 @@ html {
     width: 100%;
     height: 150px;
     background-size: cover;
-    background-image: url(img/login1.jpg);
+    background-image: url(img/preview-boyka3d.png);
 }
 
 .card_img2 {
     width: 100%;
     height: 150px;
     background-size: cover;
-    background-image: url(img/login2.jpg);
+    background-image: url(img/momentos_page.jpg);
 }
 
 .card_img3 {
     width: 100%;
     height: 150px;
     background-size: cover;
-    background-image: url(img/momentos_page.jpg);
+    background-image: url(img/login1.jpg);
 }
 
 .card_title {

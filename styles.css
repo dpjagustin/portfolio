@@ -335,8 +335,11 @@ html {
 }
 
 .projects-container {
-  background-color: #14213d;
   width: 100%;
+  background-image: url(img/codinng.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .projects-headings {
@@ -380,21 +383,21 @@ html {
   width: 100%;
   height: 150px;
   background-size: cover;
-  background-image: url(img/login1.jpg);
+  background-image: url(img/preview-boyka3d.png);
 }
 
 .card_img2 {
   width: 100%;
   height: 150px;
   background-size: cover;
-  background-image: url(img/login2.jpg);
+  background-image: url(img/momentos_page.jpg);
 }
 
 .card_img3 {
   width: 100%;
   height: 150px;
   background-size: cover;
-  background-image: url(img/momentos_page.jpg);
+  background-image: url(img/login1.jpg);
 }
 
 .card_title {
@@ -828,12 +831,6 @@ html {
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-  }
-  .hero img {
-    margin-top: 40px;
-    width: 430px;
-    height: 50vh;
-    border-bottom: 7px solid #0bebaf;
   }
   .hero-content {
     display: -webkit-box;
