@@ -5,6 +5,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
 
 html {
@@ -99,6 +100,7 @@ html {
   width: 70vw;
   height: 50vh;
   border-bottom: 7px solid #0bebaf;
+  border-radius: 100%;
 }
 
 .hero-content {
@@ -125,60 +127,16 @@ html {
   font-size: 1rem;
 }
 
-.hero-content span {
+.title-span {
   color: #fca311;
 }
 
-.effect-container {
-  display: inline-block;
-  padding: 15px 10px 10px 0px;
+.typewrite-box {
+  margin-top: 0.7rem;
 }
 
-.typed-out {
-  padding-right: 0.1em;
-  overflow: hidden;
-  border-right: 0.15em solid #fca311;
-  white-space: nowrap;
-  font-size: 1.6rem;
-  width: 0;
-  -webkit-animation: typing 1s steps(100, end) forwards, blink 0.8s infinite;
-          animation: typing 1s steps(100, end) forwards, blink 0.8s infinite;
-}
-
-@-webkit-keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@-webkit-keyframes blink {
-  from {
-    border-color: transparent;
-  }
-  to {
-    border-color: orange;
-  }
-}
-
-@keyframes blink {
-  from {
-    border-color: transparent;
-  }
-  to {
-    border-color: orange;
-  }
+.wrap {
+  color: #fff;
 }
 
 .custom-shape-divider-bottom-1656674544 {
@@ -359,7 +317,7 @@ html {
 
 .projects-container {
   width: 100%;
-  background-image: url(img/codinng.jpg);
+  background-image: url(img/coding-2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -371,7 +329,7 @@ html {
   font-size: 1.5em;
   font-weight: bold;
   color: white;
-  text-shadow: 1px 1px #fca311;
+  text-shadow: 2px 2px #fca311;
 }
 
 .projects-cards {

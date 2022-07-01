@@ -13,6 +13,7 @@ $terColor: #0bebaf;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
 html {
@@ -27,7 +28,6 @@ html {
     height: 120vh;
     background-color: $priColor;
 }
-
 
 .navbar {
     padding-top: 10px;
@@ -86,6 +86,7 @@ html {
         width: 70vw;
         height: 50vh;
         border-bottom: 7px solid #0bebaf;
+        border-radius: 100%;
     }
 }
 
@@ -104,37 +105,18 @@ html {
         color: white;
         font-size: 1rem;
     }
-
-    span {
-        color: $secColor;
-    }
 }
 
-.effect-container {
-    display: inline-block;
-    padding: 15px 10px 10px 0px;
+.title-span {
+    color: $secColor;
 }
 
-.typed-out {
-    padding-right: 0.1em;
-    overflow: hidden;
-    border-right: .15em solid $secColor;
-    white-space: nowrap;
-    font-size: 1.6rem;
-    width: 0;
-    animation: 
-    typing 1s steps(100, end) forwards,
-    blink .8s infinite;
+.typewrite-box{
+    margin-top: 0.7rem;
 }
 
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-@keyframes blink {
-    from { border-color: transparent }
-    to { border-color: orange; }
+.wrap {
+    color: #fff;
 }
 
 .custom-shape-divider-bottom-1656674544 {
@@ -158,7 +140,7 @@ html {
     fill: #FFFFFF;
 }
 
-// Sección - Sobre mí
+// Sección - Sobre mi
 
 .about-container {
     width: 100%;
@@ -297,23 +279,12 @@ html {
 // Sección - Proyectos 
 
 .projects-container {
-    // background-color: $priColor;
     width: 100%;
-    background-image: url(img/codinng.jpg);
+    background-image: url(img/coding-2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    // position: relative;
 }
-
-// #video-container {
-//     z-index: -1;
-// }
-
-// .video {
-//     width: 100%;
-//     height: 100vh;
-// }
 
 .projects-headings {
     // position: absolute;
@@ -324,7 +295,7 @@ html {
     font-size: 1.5em;
     font-weight: bold;
     color: white;
-    text-shadow: 1px 1px $secColor;
+    text-shadow: 2px 2px $secColor;
 }
 
 .projects-cards {
