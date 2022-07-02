@@ -84,9 +84,10 @@ html {
     img {
         margin-top: 40px;
         width: 70vw;
-        height: 50vh;
+        height: 60vh;
         border-bottom: 7px solid #0bebaf;
-        border-radius: 100%;
+        border-radius: 50%;
+        object-fit: contain;
     }
 }
 
