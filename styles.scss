@@ -184,7 +184,7 @@ html {
 .rocketImg {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    // margin-top: 70px;
 
     img {
         width: 120px;
@@ -245,7 +245,7 @@ html {
     padding-bottom: 1rem;
 
     p{
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: center;
     }
 }
@@ -519,6 +519,10 @@ html {
             height: 40vh;
             border-bottom: 7px solid #0bebaf;
         }
+    }
+
+    .tech-icon {
+        font-size: 4.3rem;
     }
 }
 

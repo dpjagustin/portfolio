@@ -1601,7 +1601,6 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 70px;
 }
 
 .rocketImg img {
@@ -1673,7 +1672,7 @@ html {
 }
 
 .tech-icon p {
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 
@@ -1976,6 +1975,9 @@ html {
     width: 300px;
     height: 40vh;
     border-bottom: 7px solid #0bebaf;
+  }
+  .tech-icon {
+    font-size: 4.3rem;
   }
 }
 
