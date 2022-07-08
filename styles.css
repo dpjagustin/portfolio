@@ -198,7 +198,6 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 70px;
 }
 
 .rocketImg img {
@@ -267,6 +266,11 @@ html {
   font-size: 5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
+}
+
+.tech-icon p {
+  font-size: 1rem;
+  text-align: center;
 }
 
 .tech-icon:hover {
@@ -581,6 +585,9 @@ html {
     margin-bottom: 0px;
     padding-bottom: 0px;
     height: 15%;
+  }
+  .hero {
+    margin-top: 2rem;
   }
   .hero img {
     margin-top: 40px;

@@ -174,7 +174,7 @@ html {
 .rocketImg {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    // margin-top: 70px;
 
     img {
         width: 120px;
@@ -233,6 +233,11 @@ html {
     font-size: 5rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
+
+    p{
+        font-size: 1rem;
+        text-align: center;
+    }
 }
 
 .tech-icon:hover {
@@ -521,9 +526,9 @@ html {
     }
 
     .hero {
+        margin-top: 2rem;
+
         img {
-            // width: 260px; 
-            // height: 269px;
             margin-top: 40px;
             width: 349px;
             height: 50vh;
