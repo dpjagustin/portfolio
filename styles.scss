@@ -1,3 +1,13 @@
+@import "node_modules/bootstrap/scss/functions";
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/maps";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/root";
+@import "node_modules/bootstrap/scss/grid";
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 // Variables
@@ -174,7 +184,7 @@ html {
 .rocketImg {
     display: flex;
     justify-content: center;
-    // margin-top: 70px;
+    margin-top: 70px;
 
     img {
         width: 120px;
@@ -526,9 +536,9 @@ html {
     }
 
     .hero {
-        margin-top: 2rem;
-
         img {
+            // width: 260px; 
+            // height: 269px;
             margin-top: 40px;
             width: 349px;
             height: 50vh;
