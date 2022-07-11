@@ -1676,6 +1676,10 @@ html {
   text-align: center;
 }
 
+.containerNoResponsive {
+  visibility: hidden;
+}
+
 .tech-icon:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -1978,6 +1982,15 @@ html {
   }
   .tech-icon {
     font-size: 4.3rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .containerNoResponsive {
+    visibility: visible;
+  }
+  .container {
+    display: none;
   }
 }
 

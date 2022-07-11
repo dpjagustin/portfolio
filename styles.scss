@@ -250,6 +250,10 @@ html {
     }
 }
 
+.containerNoResponsive {
+    visibility: hidden;
+}
+
 .tech-icon:hover {
     transform: scale(1.2);
     transition: all 0.7s ease-in-out;
@@ -523,6 +527,16 @@ html {
 
     .tech-icon {
         font-size: 4.3rem;
+    }
+}
+
+@media (min-width: 500px) {
+    .containerNoResponsive {
+        visibility: visible;
+    }
+
+    .container {
+        display: none;
     }
 }
 
