@@ -772,12 +772,13 @@ html {
         flex-wrap: wrap;
     }
 
-    .about-container {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 40% 10% 50%;
-        align-items: center;
-    }
+    // .about-container {
+    //     width: 100%;
+    //     display: grid;
+    //     grid-template-columns: 40% 10% 50%;
+    //     grid-template-rows: 500px;
+    //     align-items: center;
+    // }
 
     .rocketImg {  
         img {
